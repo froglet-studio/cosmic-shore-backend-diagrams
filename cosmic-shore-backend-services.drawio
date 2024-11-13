@@ -4,83 +4,173 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-11" value="CosmicShore.PlayFabIntergrations" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-11" value="CosmicShore.PlayFabIntergrations" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="880" y="420" width="690" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-12" value="CSAuthenticationPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-11">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-12" value="CSAuthenticationPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-11" vertex="1">
           <mxGeometry x="260" y="40" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-18" value="CSEconomyPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-11">
-          <mxGeometry x="260" y="87.5" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-19" value="CSContentPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-11">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-18" value="CSEconomyPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-11" vertex="1">
           <mxGeometry x="260" y="140" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-25" value="CSPlayerDataPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-11">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-19" value="CSContentPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-11" vertex="1">
+          <mxGeometry x="260" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-25" value="CSPlayerDataPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-11" vertex="1">
+          <mxGeometry x="260" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-9" value="CSEconomyPlayFab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-11">
           <mxGeometry x="260" y="190" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-4" value="CosmicShore.BackEnd" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-4" value="CosmicShore.BackEnd" style="swimlane;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="150" y="420" width="660" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-3" value="CSAuthenticationInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-3" value="CSAuthenticationInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="40" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-1" value="CSBackendInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-4" source="soFWlBaqVEX_TAnJUe-j-1" target="soFWlBaqVEX_TAnJUe-j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-4" source="soFWlBaqVEX_TAnJUe-j-1" target="soFWlBaqVEX_TAnJUe-j-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-4" source="soFWlBaqVEX_TAnJUe-j-1" target="soFWlBaqVEX_TAnJUe-j-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-4" source="soFWlBaqVEX_TAnJUe-j-1" target="soFWlBaqVEX_TAnJUe-j-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-4" source="soFWlBaqVEX_TAnJUe-j-1" target="soFWlBaqVEX_TAnJUe-j-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-4" source="soFWlBaqVEX_TAnJUe-j-1" target="soFWlBaqVEX_TAnJUe-j-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-1" value="CSBackendInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="20" y="127.5" width="130" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-13" value="CSEconomyInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-13" value="CSEconomyInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="117.5" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-14" value="CSContentInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-14" value="CSContentInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="80" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-15" value="CSPlayerDataInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-15" value="CSPlayerDataInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="200" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-22" value="CSMultiplayerInterfaces" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-22" value="CSMultiplayerInterfaces" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="280" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-24" value="CSCloudScriptInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-24" value="CSCloudScriptInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="240" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-28" value="CSPlayerInventoryInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-4">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-28" value="CSPlayerInventoryInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-4" vertex="1">
           <mxGeometry x="220" y="160" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-5" value="CosmicShore.ConsoleCommand" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-5" value="CosmicShore.ConsoleCommand" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="150" y="90" width="660" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-6" value="CSConsoleCommandInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-5" source="soFWlBaqVEX_TAnJUe-j-6" target="soFWlBaqVEX_TAnJUe-j-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-5" source="soFWlBaqVEX_TAnJUe-j-6" target="soFWlBaqVEX_TAnJUe-j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-5" source="soFWlBaqVEX_TAnJUe-j-6" target="soFWlBaqVEX_TAnJUe-j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-5" source="soFWlBaqVEX_TAnJUe-j-6" target="soFWlBaqVEX_TAnJUe-j-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-5" source="soFWlBaqVEX_TAnJUe-j-6" target="soFWlBaqVEX_TAnJUe-j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-6" value="CSConsoleCommandInterfaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="10" y="125" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-7" value="CSAuthenticationCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-7" value="CSAuthenticationCommands" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="245" y="40" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-8" value="CSEconomyCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-8" value="CSEconomyCommands" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="245" y="125" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-9" value="CSContentCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-9" value="CSContentCommands" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="245" y="80" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-10" value="CSPlayerDataCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-10" value="CSPlayerDataCommands" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="245" y="210" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-20" value="CSMultiplayerCommands" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-20" value="CSMultiplayerCommands" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="245" y="250" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-29" value="CSPlayerInventoryCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-5">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-29" value="CSPlayerInventoryCommands" style="rounded=1;whiteSpace=wrap;html=1;" parent="soFWlBaqVEX_TAnJUe-j-5" vertex="1">
           <mxGeometry x="245" y="170" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-17" value="Plan a multiplayer interface for future implementations (after alpha build delivery)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-17" value="Plan a multiplayer interface for future implementations (after alpha build delivery)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="10" y="90" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-21" value="PlayFab has a really detailed sections for managing player&#39;s actions. For now the most access section is Player Data. Having one manager responsible for CRUD operations for the player would be nice." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-21" value="PlayFab has a really detailed sections for managing player&#39;s actions. For now the most access section is Player Data. Having one manager responsible for CRUD operations for the player would be nice." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="10" y="420" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-23" value="Factions, groups are not alpha build targets. Revisit them later." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-23" value="Factions, groups are not alpha build targets. Revisit them later." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="10" y="240" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="soFWlBaqVEX_TAnJUe-j-27" value="CosmicShore.Functions" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="soFWlBaqVEX_TAnJUe-j-27" value="CosmicShore.Functions" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="880" y="820" width="690" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-3" value="CSDailyReward" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-27">
+          <mxGeometry x="295" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-27" source="_6HGgYS4Jvbz8rckhgu2-4" target="_6HGgYS4Jvbz8rckhgu2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-27" source="_6HGgYS4Jvbz8rckhgu2-4" target="_6HGgYS4Jvbz8rckhgu2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="soFWlBaqVEX_TAnJUe-j-27" source="_6HGgYS4Jvbz8rckhgu2-4" target="_6HGgYS4Jvbz8rckhgu2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-4" value="CSEconomy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-27">
+          <mxGeometry x="50" y="70" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-5" value="CSDailyChallenge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-27">
+          <mxGeometry x="295" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-44" value="CSPlayerInventory" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="soFWlBaqVEX_TAnJUe-j-27">
+          <mxGeometry x="295" y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-1" value="CSCloudScriptInterfaces is a bit tricky to add as part of the backend service interfaces. It is part of the PlayFab automation API. To execute customizable functions from Cosmic Shore client requests, the component will use many other APIs from PlayFab." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.651;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-6" target="soFWlBaqVEX_TAnJUe-j-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-3" target="soFWlBaqVEX_TAnJUe-j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-14" target="soFWlBaqVEX_TAnJUe-j-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-13" target="soFWlBaqVEX_TAnJUe-j-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-28" target="_6HGgYS4Jvbz8rckhgu2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-15" target="soFWlBaqVEX_TAnJUe-j-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="soFWlBaqVEX_TAnJUe-j-24" target="soFWlBaqVEX_TAnJUe-j-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-40" value="Console Command is using Spectre Console Framework" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-43" value="The purpose of interfaces are for unit tests." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="790" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_6HGgYS4Jvbz8rckhgu2-46" value="The client API already has inventory operations available. Using Azure Functions is due to the repository is determined to be open-source, it&#39;s prone to cheating if it comes to the free in-game item claims." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1040" width="230" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
