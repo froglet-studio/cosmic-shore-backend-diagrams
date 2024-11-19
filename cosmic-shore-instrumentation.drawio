@@ -1,9 +1,69 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Component Overview">
-    <mxGraphModel dx="2526" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-0" value="Analytics Controller" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="440" width="220" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-2" value="CSStoreDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="40" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-3" value="CSPlayerDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="40" y="130" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-4" value="CSArcadeDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="40" y="177.5" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-5" value="CSMissionDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="40" y="230" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-6" value="CSTrainingDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="40" y="280" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-7" value="CSAnalyzablesInit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="40" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-1" value="IAnalyzable" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="50" width="470" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-9" value="Purchase Arcade Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="80" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-10" value="Purchase Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="50" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-11" value="Purchase Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-12" value="Upgrade Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="140" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-13" value="Watch Ad" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="170" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-14" value="Redeem Daily Reward" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="200" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-15" value="Start Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="230" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-20" value="Complete Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="260" y="50" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-19" value="Start Training Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="260" y="80" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-18" value="Complete Training Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="260" y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-17" value="Start Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="260" y="140" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-16" value="Complete Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="260" y="170" width="180" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
