@@ -1,68 +1,252 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Component Overview">
-    <mxGraphModel dx="1244" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2526" dy="2422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="TsCvUeLilZaV20elPOQK-0" value="Analytics Controller" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="440" width="220" height="330" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-0" value="Analytics Controller" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="255" y="540" width="220" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-2" value="CSStoreDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
-          <mxGeometry x="40" y="90" width="140" height="30" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-38" value="InitSDK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="20" y="45" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-3" value="CSPlayerDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
-          <mxGeometry x="40" y="130" width="140" height="35" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-39" value="(All event function wrappers)&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=1 4;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
+          <mxGeometry x="20" y="110" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-4" value="CSArcadeDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
-          <mxGeometry x="40" y="177.5" width="140" height="35" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-1" value="IAnalyzable" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="30" width="1100" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-5" value="CSMissionDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
-          <mxGeometry x="40" y="230" width="140" height="35" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="115" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-6" value="CSTrainingDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
-          <mxGeometry x="40" y="280" width="140" height="35" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="145" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-7" value="CSAnalyzablesInit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-0">
-          <mxGeometry x="40" y="50" width="140" height="30" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="175" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-1" value="IAnalyzable" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="50" width="470" height="360" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="205" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-9" value="Purchase Arcade Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="80" width="180" height="20" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="235" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-10" value="Purchase Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="50" width="180" height="20" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-11" value="Purchase Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="110" width="180" height="20" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="290" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-12" value="Upgrade Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="140" width="180" height="20" as="geometry" />
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="78hPR7zDSCHE_Zxqd0Sh-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="85" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-13" value="Watch Ad" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="170" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-2" value="CSStoreDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="20" y="175" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-14" value="Redeem Daily Reward" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="200" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-10" value="Purchase Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="105" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-15" value="Start Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="30" y="230" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-9" value="Purchase Arcade Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="135" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-20" value="Complete Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="260" y="50" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-11" value="Purchase Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="165" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-19" value="Start Training Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="260" y="80" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-13" value="Watch Ad" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="195" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-18" value="Complete Training Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="260" y="110" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-14" value="Redeem Daily Reward" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="225" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-17" value="Start Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="260" y="140" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-15" value="Start Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="252.5" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-16" value="Complete Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
-          <mxGeometry x="260" y="170" width="180" height="20" as="geometry" />
+        <mxCell id="TsCvUeLilZaV20elPOQK-20" value="Complete Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="330" y="280" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-3" target="TsCvUeLilZaV20elPOQK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-3" target="78hPR7zDSCHE_Zxqd0Sh-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-3" value="CSPlayerDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="620" y="47.5" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-12" value="Upgrade Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="830" y="55" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-4" target="78hPR7zDSCHE_Zxqd0Sh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-4" target="78hPR7zDSCHE_Zxqd0Sh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-4" target="78hPR7zDSCHE_Zxqd0Sh-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="143" />
+              <mxPoint x="790" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-4" value="CSArcadeDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="620" y="125" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-18" value="Start Arcade Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="820" y="125" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-19" value="Start Training Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="820" y="320" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-18" value="Complete Training Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="820" y="350" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-17" value="Start Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="820" y="225" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-16" value="Complete Mission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="820" y="255" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-19" value="Complete Arcade Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="820" y="155" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-5" target="TsCvUeLilZaV20elPOQK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-5" target="TsCvUeLilZaV20elPOQK-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="233" />
+              <mxPoint x="790" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-5" target="78hPR7zDSCHE_Zxqd0Sh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-5" value="CSMissionDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="620" y="215" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-6" target="TsCvUeLilZaV20elPOQK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-6" target="TsCvUeLilZaV20elPOQK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-6" target="78hPR7zDSCHE_Zxqd0Sh-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="333" />
+              <mxPoint x="790" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsCvUeLilZaV20elPOQK-6" value="CSTrainingDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
+          <mxGeometry x="620" y="315" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-27" value="InitSDK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="330" y="75" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-29" value="InitSDK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="830" y="27.5" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-31" value="InitSDK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="820" y="290" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-33" value="InitSDK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="820" y="195" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-35" value="InitSDK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="820" y="95" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-58" value="IStoreAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="35" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-104" value="IPlayerAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="630" y="82.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-105" value="IArcadeAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="630" y="155" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-153" value="IMissionAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="625" y="247.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-154" value="ITrainingAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="625" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-5" value="Currently we are using Firebase, there might be other instrumentation SDK we would use in the future" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="-120" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-26" value="Analytics Controller has all the function wrappers from all the data controllers above" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="540" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-37" value="For now they can all be static functions" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="-120" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-40" value="Firebase Intergrations" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="619" y="520" width="316" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-41" value="CSStoreDataCollectorFirebase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="78hPR7zDSCHE_Zxqd0Sh-40">
+          <mxGeometry x="61" y="90" width="194" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-45" value="CSPlayerDataCollectorFirebase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="78hPR7zDSCHE_Zxqd0Sh-40">
+          <mxGeometry x="61" y="135" width="194" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-46" value="CSArcadeDataCollectorFirebase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="78hPR7zDSCHE_Zxqd0Sh-40">
+          <mxGeometry x="61" y="187.5" width="194" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-47" value="CSMissionDataCollectorFirebase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="78hPR7zDSCHE_Zxqd0Sh-40">
+          <mxGeometry x="61" y="240" width="194" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-48" value="CSTrainingDataCollectorFirebase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="78hPR7zDSCHE_Zxqd0Sh-40">
+          <mxGeometry x="61" y="290" width="194" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-56" value="CSFirebaseUtilities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="78hPR7zDSCHE_Zxqd0Sh-40">
+          <mxGeometry x="61" y="40" width="194" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-57" value="CSFirebaseUtilities has all the initialization and other none data collecting functions" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="965" y="520" width="120" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
