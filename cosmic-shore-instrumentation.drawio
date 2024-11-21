@@ -14,12 +14,12 @@
           <mxGeometry x="20" y="110" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="TsCvUeLilZaV20elPOQK-1" value="IAnalyzable" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="240" y="510" width="1100" height="390" as="geometry" />
+          <mxGeometry x="240" y="510" width="1100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="170" />
               <mxPoint x="250" y="115" />
             </Array>
           </mxGeometry>
@@ -27,7 +27,7 @@
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="170" />
               <mxPoint x="250" y="145" />
             </Array>
           </mxGeometry>
@@ -35,7 +35,7 @@
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="170" />
               <mxPoint x="250" y="175" />
             </Array>
           </mxGeometry>
@@ -43,7 +43,7 @@
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="170" />
               <mxPoint x="250" y="205" />
             </Array>
           </mxGeometry>
@@ -51,37 +51,21 @@
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="170" />
               <mxPoint x="250" y="235" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="190" />
-              <mxPoint x="250" y="263" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="78hPR7zDSCHE_Zxqd0Sh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="TsCvUeLilZaV20elPOQK-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="190" />
-              <mxPoint x="250" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-2" target="78hPR7zDSCHE_Zxqd0Sh-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="190" />
+              <mxPoint x="250" y="170" />
               <mxPoint x="250" y="85" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TsCvUeLilZaV20elPOQK-2" value="CSStoreDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
-          <mxGeometry x="20" y="175" width="140" height="30" as="geometry" />
+          <mxGeometry x="20" y="155" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TsCvUeLilZaV20elPOQK-10" value="Purchase Captain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
           <mxGeometry x="330" y="105" width="180" height="20" as="geometry" />
@@ -97,12 +81,6 @@
         </mxCell>
         <mxCell id="TsCvUeLilZaV20elPOQK-14" value="Redeem Daily Reward" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
           <mxGeometry x="330" y="225" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-15" value="Start Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
-          <mxGeometry x="330" y="252.5" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="TsCvUeLilZaV20elPOQK-20" value="Complete Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
-          <mxGeometry x="330" y="280" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="TsCvUeLilZaV20elPOQK-1" source="TsCvUeLilZaV20elPOQK-3" target="TsCvUeLilZaV20elPOQK-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -201,7 +179,7 @@
           <mxGeometry x="820" y="95" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-58" value="IStoreAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
-          <mxGeometry x="35" y="145" width="110" height="30" as="geometry" />
+          <mxGeometry x="35" y="125" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-104" value="IPlayerAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
           <mxGeometry x="630" y="82.5" width="120" height="30" as="geometry" />
@@ -214,6 +192,24 @@
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-154" value="ITrainingAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="TsCvUeLilZaV20elPOQK-1" vertex="1">
           <mxGeometry x="625" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0XAV-caHNBZqbnMfgZs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="L0XAV-caHNBZqbnMfgZs-0" target="L0XAV-caHNBZqbnMfgZs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0XAV-caHNBZqbnMfgZs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TsCvUeLilZaV20elPOQK-1" source="L0XAV-caHNBZqbnMfgZs-0" target="L0XAV-caHNBZqbnMfgZs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0XAV-caHNBZqbnMfgZs-0" value="CSDailyChallengeDataCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="20" y="330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0XAV-caHNBZqbnMfgZs-1" value="Start Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="330" y="320" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L0XAV-caHNBZqbnMfgZs-2" value="Complete Daily Challenge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="330" y="347.5" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L0XAV-caHNBZqbnMfgZs-6" value="IDailyChallengeAnalyzable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TsCvUeLilZaV20elPOQK-1">
+          <mxGeometry x="30" y="290" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78hPR7zDSCHE_Zxqd0Sh-5" value="Currently we are using Firebase, there might be other instrumentation SDK we would use in the future" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="630" y="360" width="120" height="130" as="geometry" />
